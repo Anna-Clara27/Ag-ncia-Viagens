@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    background-image: url("../imagens/Fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#menu{
+    display: block;
+
+}
+
+#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 500px;
+    
+}
+
+#menu li{
+    display: inline;
+    padding: 10px;
+    margin: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    text-align: left;
+    color: #ffff00;
+    font-size: 80px;
+    padding: 30px;
+    left: 40px; 
+     
+}
